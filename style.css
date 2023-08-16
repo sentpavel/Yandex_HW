@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+@keyframes left_anim {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(120);
+    }
+  }
+
+  .scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header {
+    animation-name: left_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .texta {
+    display: flex;
+    padding: 8px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5em;
+    font-weight: 50;
+    transform: translateX(0);
+    align-self: start;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  .form1 {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .form_button {
+    transition: all 0.3s ease-out;
+    align-items: stretch;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #191E28;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #FFD21E;
+    background-clip: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50;
+  }
+
+  .form_button:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.02, 1.02);
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 16px 2px;
+  }
+
+  .textb {
+    display: flex;
+    padding: 8px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5em;
+    font-weight: 50;
+    transform: translateX(0);
+    align-self: start;
+    text-transform: uppercase;
+    text-align: end;
+  }
+  .form2 {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: end;
+  }
+  p {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #333;
+  }
+
+  
