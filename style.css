@@ -16,39 +16,31 @@ body {
 }
 
   header {
-    animation-name: left_anim;
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    text-align: start;
+    padding: 60px 60px;
   }
 
-  .texta {
-    display: flex;
-    padding: 8px 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  .head{
     font-family: "Montserrat", sans-serif;
-    font-size: 5em;
-    font-weight: 50;
-    transform: translateX(0);
-    align-self: start;
     text-transform: uppercase;
-    
+    font-size: 3em;
+    height: 1000px;
+    text-align: start;
   }
 
   .form1,.form2 {
     position: relative;
-    width: 1000px;
     margin: 0 auto;
-    align-items: space-between;
   }
-  
+  .form1{
+    text-align: end;
+  }
+  .form2{
+    text-align: start;
+  }
   .form_button1,.form_button2 {
     text-align: center;
     transition: all 0.3s ease-out;
     text-transform: uppercase;
-    font-size: 3em;
     color: #191E28;
     border: none;
     border-radius: 8px;
@@ -57,6 +49,7 @@ body {
     background-clip: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 50;
+    font-size: 1em;
   }
 
   .form_button1:hover,.form_button2:hover {
@@ -65,45 +58,34 @@ body {
     box-shadow: rgba(255, 255, 255, 0.3) 0 0 16px 2px;
   }
 
-  .article{
+  .secondText{
     align-self: end;
     text-align: end;
     align-items: flex-end;
-  }
-
-  .textb {
-    display: flex;
     padding: 8px 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
     font-family: "Montserrat", sans-serif;
-    font-size: 5em;
-    font-weight: 50;
-    transform: translateX(0);
-    align-self: start;
     text-transform: uppercase;
+    font-size: 3em;
+    height: 1000px;
   }
 
-  p {
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    color: #333;
-  }
   .predlog{
-    display: flex;
     padding: 8px 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     font-weight: 30;
-    transform: translateX(0);
     align-self: start;
     text-transform: uppercase;
   }
 
-  
+  .howWeWork{
+    padding: 8px 50px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .howAcces{
+    padding: 8px 50px;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+  }
+
